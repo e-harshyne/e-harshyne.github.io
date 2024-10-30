@@ -12,32 +12,26 @@ h2 {
 }
 
 
-.about {  
-    display:flex; 
-    flex-wrap:wrap; 
-
-}
-.about { 
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: white; /* pick a color */
-    border-radius: 25%;
-}
-
-.about p { 
+    .about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    }
+    .about p {
+    width:50%;
     text-align: center;
-    margin: 15px;
+    margin: auto;
+    line-height: 125%;
+    }
+    .about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
     }
 
-.about img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(62, 249, 187); /* choose a color */
-    display: block;
-    margin: auto;
-    }
 
 .projects { 
     display:flex; 
@@ -75,6 +69,8 @@ h2 {
             display:flex;
             flex-wrap:wrap; 
         }
+
+
 
          
 
