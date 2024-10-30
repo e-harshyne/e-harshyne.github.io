@@ -25,6 +25,15 @@ h2 {
     border-radius: 25%;
 }
 
+.about img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(62, 249, 187); /* choose a color */
+    display: block;
+    margin: auto;
+    }
+
 .projects { 
     display:flex; 
     flex-wrap:wrap; 
