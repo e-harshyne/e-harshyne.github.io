@@ -25,6 +25,11 @@ h2 {
     border-radius: 25%;
 }
 
+.about p { 
+    text-align: center;
+    margin: 15px;
+    }
+
 .about img{
     width: 300px;
     height: 300px;
@@ -60,6 +65,7 @@ h2 {
         color: rgb(213, 12, 213);
         text-align: center;
         }
+
         .project p { /* change the appearance of paragraph tags inside .project divs */
         text-align: center;
         margin: 15px;
